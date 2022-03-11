@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;600&family=Mulish:wght@400;700;800;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <title>DHonor Online School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVBAR SECTION -->
+        <div class="nav-wrapper">
+            <nav class="navbar">
+               <div class="logo">D<span class="primary-color">Honor</span></div>
+               <div class="menu-toggle" id="mobile-menu" onClick={handleToggle}>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+               </div>
+              <ul>
+                  <li>
+                    <a href="/" activeclass="selected" class='nav-item t-right'>
+                        Home
+                  </a>
+                  </li>
+                  <li>
+                    <a href="/#courses" class='nav-item t-center' onClick={removeToggle}>
+                        Courses 
+                   </a>
+                  </li>
+                   <li>
+                    <a href="/#testimonial" class='nav-item' >Testimonial </a>
+                   </li>
+                    <li>
+                        <a href="/about" class='nav-item t-center' >About Us </a>
+                    </li>
+              </ul>
+             </nav>
+        </div>
+        <!-- SLIDESHOW SECTION -->
+        <section class='slideshow-main container flex a-i-center'>
+            <div class="grid23">
+                 <div class="text z-index">
+                      <h1 class="slideshow__title">
+                           Welcome to DHonor Online Portal
+                      </h1>
+                      <p class="slideshow__desc">
+                      Become an expert today at building responsive, and attractive websites with our project based system of learning capable of taking you from a complete beginner to a Job ready Level. </p>
+                      <a href='#register' class='btn_register'>Join Now</a>
+                 </div>
+                 
+            </div>
+       </section>
+
+       <!-- WHO WE ARE -->
+       <section class="about container t-center">
+           <h2 class='primary__text primary__text2 pb-m '>Who we are</h2>
+           <p>DHonor Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consectetur, fugiat iusto distinctio magni repudiandae nostrum laudantium consequuntur iure itaque modi quo qui eaque, quasi cum debitis culpa nobis voluptatum illum quae dolore enim reprehenderit magnam sapiente! Culpa, sit. Earum eaque hic iste ab alias rerum explicabo in illo illum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio inventore esse dolor deserunt aliquam eligendi maiores qui rem, itaque asperiores.
+           </p>
+       </section>  
+       <!-- WHO WE ARE -->
+       <section class="staffs-section container t-center">
+        <h2 class='primary__text primary__text2 white pb-s '>Meet our Awesome Teachers</h2>
+        <p>DHonor Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        </p>
+        <div class="grid3 mt-m">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300" alt="staff image one" class="staff-image">
+                <p class="staff-name">Alice Sharon</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1522609925277-66fea332c575?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300" alt="staff image one" class="staff-image">
+                <p class="staff-name">Adam Turner</p>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300" alt="staff image one" class="staff-image">
+                <p class="staff-name">Nancy Hughes</p>
+            </div>
+        </div>
+    </section>  
+
+    <!--OUR COURSES-->
+    <section class="container">
+        <h2 class='primary__text primary__text2 pb-m ' >Courses Offered</h2>
+        <div class="grid2">
+            <div class="text-section text-section__courses">
+                 <div class="grid1-6 ">
+                      <div>
+                           <i class="pb-s fas fa-laptop-code fa-2x icon-color"></i>
+                      </div>
+                      <div>
+                      <h3 class="tertiary-header">
+                           Course Title 1
+                      </h3> 
+                      <p class='t-left'>
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique eaque quibusdam mollitia asperiores, distinctio recusandae quae nihil consectetur pariatur ipsam fugiat dolore ducimus nostrum nesciunt vel quia vitae quasi quisquam eius quos voluptatem repellat magnam!
+                      </p>
+                      <a class='btn blog_btn inline-block' href='#'>Read More</a> 
+                 </div>
+
+                 </div>   
+            </div>
+
+            <div class="text-section text-section__courses">
+                 <div class="grid1-6">
+                      <div>
+                           <i class="pb-s fas fa-layer-group fa-2x icon-color"></i>
+                      </div>
+                 <div>
+                      <h3 class="tertiary-header">
+                           Course Title 2
+                      </h3>
+                      <p class='t-left'>
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis doloribus voluptas vel dolores rerum quae quisquam ex itaque quam dolorem saepe commodi voluptatem quod ut, adipisci velit maxime cupiditate minima corporis. Sequi eum nesciunt aliquam.
+                      </p>
+                      <a class='btn blog_btn inline-block' href='#'>Read More</a> 
+                 </div>    
+            </div>
+       </div>  
+            <div class="text-section text-section__courses">
+                 <div class="grid1-6">
+                      <div>
+                           <i class="pb-s fas fa-search-dollar fa-2x  icon-color"></i>
+                      </div>
+                      <div>
+                           <h3 class="tertiary-header">
+                                Course Title 3
+                           </h3>
+                           <p class='t-left'>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, libero hic culpa quis reiciendis laboriosam debitis doloribus, velit suscipit maiores eveniet ipsa ea quos harum nesciunt commodi?
+                           </p> 
+                           <a class='btn blog_btn inline-block' href='#'>Read More</a> 
+                      </div>
+                 </div>   
+            </div>
+
+            <div class="text-section text-section__courses">
+                 <div class="grid1-6">
+                      <div>
+                           <i class=" pb-s fas fa-file-word fa-2x  icon-color" aria-hidden="true"></i>
+                      </div>
+                      <div>
+                      <h3 class="tertiary-header">
+                           Course Title 4
+                      </h3> 
+                      <p class='t-justify'>
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut est, ipsam, adipisci voluptates beatae illo nostrum minima id recusandae sint blanditiis? Rerum unde amet nobis totam debitis! Impedit.
+                      </p>
+                      <a class='btn blog_btn inline-block' href='#'>Read More</a> 
+                      </div>
+                 </div>
+            </div>
+          
+       </div> 
+  </section>
+
+  <!--TESTIMONIALS-->
+  <section class="testimonial t-center">
+    <h2 class=" primary__text white-heading">
+            Testimonial
+        </h2>
+        <div class="grid2 grid2__collapse">
+        <div id="testimonial4 " class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+         
+         <div class="carousel-inner" role="listbox">
+             <div class="carousel-item active">
+                 <div class="testimonial4_slide grid1-2">
+                     <img src="https://images.unsplash.com/photo-1522609925277-66fea332c575?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300" class="img-circle img-responsive" alt='testisfier' />
+                     <div>
+                     <p class='t-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, maiores ipsa! Reprehenderit voluptatem dicta a doloribus rem maxime! In, culpa. Velit maiores consequatur accusantium incidunt doloribus eligendi, ex quod veritatis?</p>
+                     <h4>John Doe</h4>
+                     </div>
+                     
+                 </div>
+             </div>
+         </div>
+     </div>
+     <div id="testimonial4 " class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+         
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="testimonial4_slide grid1-2">
+                        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300" class="img-circle img-responsive" alt='testisfier' />
+                        <div>
+                        <p class='t-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae alias, saepe in, commodi nesciunt recusandae explicabo iusto, mollitia iste harum ab? Soluta tempore incidunt, reprehenderit corrupti culpa officia nam cum!</p>
+                        <h4>Phil Jones</h4>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</section>
+
+<!--CTA SECTION-->
+<div class="apply-now">
+    <div class="z-indez-high">
+        <h2>What are you still waiting for?</h2>
+           <a class='btn blog_btn inline-block' href='/#'>Buy a Course Now</a>
+    </div>
+    <div class="bg-overlay"></div>
+</div>
+    <!-- CONTACT US FORM -->
+    <section class="contact grid2 container" id="contact">
+        <div>
+            <h3 class="tertiary-header tertiary-color t-center">Are you having any Qestions?</h3>
+            <img src="./images/virtual-assistant.svg" alt="How to contact Joshua Oyewole in Edo State Nigeria" loading="lazy">
+        </div>
+        <div> 
+            <h2 class="secondary-header pb-m uppercase">Contact Me.</h2>
+            <form  name="Hire-me" data-netlify="true" method="POST">
+                <div class="form-control">
+                    <label for="name">Full Names</label>
+                    <input type="text" name="names" id="name" placeholder="Fullnames" class="name-field">
+                </div>
+                <div class="grid2">
+                    <div class="form-control">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                    </div>
+                    <div class="form-control">
+                        <label for="tel">Phones: </label>
+                        <input type="tel" name="tel" id="tel" placeholder="Tel">
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label for="msg">Message</label>
+                    <textarea name="message" id="msg" placeholder="Enter your Message"></textarea>
+                </div>
+                <div class="form-control">
+                    <input type="submit" value="Send Message" class="btn__get-started submit_btn">
+                </div>
+            </form>
+        </div>
+    </section>
+       <!-- FOOTER SECTION -->
+       <div>
+       <section class="subFooter container">
+        <div class="grid4 grid3-footer">
+            <div class="followUs">
+                <h6 class="subFooter__heading p-b-small uppercase">Join us on Social Media</h6>
+                <ul>
+                    <li class="subFooter__list">
+                        <i class="fab fa-youtube"></i>
+                        <a href="https://www.youtube.com/channel/UCFVxdmgojHfxOZ8j16UapiA" class="subFooter__link">Youtube</a>
+                    </li>
+                    <li class="subFooter__list">
+                        <i class="fab fa-facebook"></i>
+                        <a href="https://web.facebook.com/orisfinacomputerinstitute" target="_blank" rel="noopener noreferrer" class="subFooter__link">Facebook</a>
+                    </li>
+                    <li class="subFooter__list">
+                        <i class="fab fa-twitter"></i>
+                        <a href="https://twitter.com/joshuaoyewole11" class="subFooter__link">Twitter</a>
+                    </li>
+                    <li class="subFooter__list">
+                        <i class="fab fa-instagram"></i>
+                        <a href="https://www.instagram.com/joshuaoyewole11/" class="subFooter__link">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contactUs">
+                <h6 class="subFooter__heading p-b-small uppercase m-t-medium">Contact Us</h6>
+                <ul>
+                    <li class="subFooter__list flex a-i-center">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="subFooter__link">  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, aspernatur?</span>
+                    </li>
+                    <li class="subFooter__list flex a-i-center">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span class="subFooter__link"> +234-1348-2243</span>
+                    </li>
+                    <li class="subFooter__list flex a-i-center">
+                        <i class="far fa-envelope"></i>
+                        <span class="subFooter__link">info@dhonor.com</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="followUs">
+                <h6 class="subFooter__heading p-b-small uppercase">Courses</h6>
+                <ul>
+                    <li class="subFooter__list">
+                        <Link to='/frontend-web-development-career' class='subFooter__link'> &gt; Frontend Web Development</Link>
+                    </li>
+                    <li class="subFooter__list">
+                        <Link to='/backend-web-development-career' class='subFooter__link'>&gt; Backend Web Development</Link>
+                    </li>
+                    <li class="subFooter__list">
+                        <Link to='/graphic-design-career' class='subFooter__link'>&gt; Graphic Design</Link>
+                    </li>
+                    <li class="subFooter__list">
+                        <Link to='/application-package-learning-path' class='subFooter__link'>&gt; Application Package</Link>
+                    </li>
+                </ul>
+            </div>
+            <div class='about'>
+                <h6 class='subFooter__heading p-b-small uppercase'>About us</h6>
+                <p class='about-us'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dicta! Nisi ratione voluptatibus in provident nesciunt totam, placeat alias saepe quidem ullam necessitatibus aut. Animi.</p>
+            </div>
+        </div>
+    </section>
+        <p class='pt-m footer'>
+             Copyright &copy; 
+             <span id='copyrightYear'></span>. 
+             DHonor. All rights Reserved
+        </p>
+    </div>
+    </body>
+    <script src="/app.js"></script>
+</body>
+</html>
